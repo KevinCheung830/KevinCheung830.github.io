@@ -364,8 +364,10 @@ body {
   grid-column: 1;
 }
 @media screen and (max-width: 767px) {
+
   #main-grid {
     grid-template-columns: auto auto;
+    width: 90%;
   }
   #main-grid #sidebar-wrapper {
     grid-row: 3;
@@ -557,6 +559,7 @@ navbar,
   .comment-card .main-title,
   .archive-main-card .archive-title {
     font-size: 28px;
+    width: 95%;
   }
 }
 .article-entry a,
